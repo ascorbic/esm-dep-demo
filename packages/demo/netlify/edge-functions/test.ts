@@ -7,5 +7,5 @@ export default function handler(event, context) {
 }
 
 export const config = {
-    paths: "/api"
+    paths: "/"
 }

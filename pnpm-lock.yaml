@@ -4,10 +4,15 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-dependencies:
-  filenamify:
-    specifier: ^6.0.0
-    version: 6.0.0
+importers:
+
+  .: {}
+
+  packages/demo:
+    dependencies:
+      filenamify:
+        specifier: ^6.0.0
+        version: 6.0.0
 
 packages:
 

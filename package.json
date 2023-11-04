@@ -9,8 +9,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "filenamify": "^6.0.0"
-  }
+  "license": "ISC"
 }
